@@ -1,0 +1,23 @@
+[project]
+name = "youtube-to-blog"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "crewai>=1.6.1",
+    "crewai-tools>=1.6.1",
+    "duckduckgo-search>=8.1.1",
+    "google-generativeai>=0.8.5",
+    "langchain-groq>=1.1.0",
+    "langchain-huggingface>=1.1.0",
+    "litellm>=1.80.7",
+    "load-dotenv>=0.1.0",
+    "openai>=2.8.1",
+    "phi>=0.6.7",
+    "phidata>=2.7.10",
+    "python-dotenv>=1.2.1",
+    "qdrant-client>=1.16.1",
+    "streamlit>=1.51.0",
+    "youtube-transcript-api>=1.2.3",
+]

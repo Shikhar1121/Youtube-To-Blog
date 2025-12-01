@@ -1,9 +1,13 @@
 crewai
 crewai_tools
-load_dotenv
 langchain-huggingface
 Streamlit
 python-dotenv
 langchain-groq
 litellm
 qdrant-client
+phidata
+google-generativeai
+openai
+duckduckgo-search
+youtube-transcript-api
