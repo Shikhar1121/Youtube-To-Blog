@@ -10,7 +10,7 @@ from youtube_transcript_api import YouTubeTranscriptApi , TranscriptsDisabled , 
 
 load_dotenv()
 
-openai_api_key = os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
+openai_api_key = os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"] if "OPENAI_API_KEY" in st.secrets else os.getenv("OPENAI_API_KEY")
 
 if openai_api_key:
     genai.configure(api_key=openai_api_key)
